@@ -1,0 +1,54 @@
+{
+  "server": {
+    "host": "10.42.5.90",
+    "port": "9000"
+  },
+  "couchbase": {
+    "server": {
+      "host": "10.42.5.14",
+      "port": 8091
+    },
+    "bucket": "smartfluides",
+    "password": "Administrator",
+    "connectionTimeout": 2000,
+    "operationTimeout": 2000,
+    "cachefile": "",
+    "ttl": 86400,
+    "prefix": "sess"
+  },
+  "elasticsearch": {
+    "host": "10.42.5.15",
+    "port": 9200,
+    "log": "info"
+  },
+  "mongo": {
+    "host": "10.42.5.13",
+    "port": 27017,
+    "log": "info"
+  },
+  "zoo": {
+    "host": "10.42.5.11",
+    "port": 2181,
+    "log": "info"
+  },
+  "agent": {
+    "auth": {
+      "host": "10.42.5.40",
+      "port": 8088
+    },
+    "dispatcher": {
+      "host": "10.42.5.50",
+      "port": 8081
+    },
+    "worker": {
+      "host": "10.42.5.60",
+      "port": 8085
+    }
+  },
+  "l10n": {
+    "cookie": "l10n"
+  },
+  "routes": {
+    "cookie": "routes"
+  }
+}
